@@ -6,7 +6,7 @@
 
 textures/jajsnow1/jajsnow1_skybox
 {
-	qer_editorimage textures/jajsnow1/jajsnow1_rt_view.tga
+	qer_editorimage textures/jajsnow1/jajsnow1_rt_view
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	q3map_globaltexture

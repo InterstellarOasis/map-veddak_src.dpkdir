@@ -3,21 +3,21 @@
 textures/tremor/force_field
 {
 	{
-		map textures/tremor/force_field.tga
+		map textures/tremor/force_field
 		blendfunc add
 		rgbGen wave noise 0.8 1 0 1 
 		tcMod scale 1 1
 	}
 }
-textures/tremor/purple_1.tga
+textures/tremor/purple_1
 {
 	{
-		map textures/tremor/purple_1.tga
+		map textures/tremor/purple_1
 		blendfunc add
 		rgbGen wave noise 0.5 1 0 1 
 	}
 	{
-		map textures/tremor/purple_1.tga
+		map textures/tremor/purple_1
 		blendfunc filter
 		rgbGen wave noise 0.5 1 0 1 
 		tcMod rotate 15
@@ -32,7 +32,7 @@ textures/titan/light_128x512
 		tcGen lightmap 
 	}
 	{
-		map textures/titan/light_128x512.tga
+		map textures/titan/light_128x512
 		blendfunc filter
 		rgbGen identity
 	}
@@ -40,22 +40,22 @@ textures/titan/light_128x512
 textures/tremor/ship_flame
 {
 	{
-		map textures/tremor/ship_flame.tga
+		map textures/tremor/ship_flame
 		blendfunc add
 	}
 	{
-		map textures/tremor/ship_flame2.tga
+		map textures/tremor/ship_flame2
 		blendfunc add
 		rgbGen wave sawtooth 0 1 0 1 
 		tcMod scroll 5 0
 	}
 }
-textures/tremor/grate_3_shade
+textures/niveus/grate_3
 {
 	surfaceparm	metalsteps		
 	cull none
 	{
-		map textures/tremor/grate_3_shade.tga
+		map textures/niveus/grate_3
 		blendFunc GL_ONE GL_ZERO
 		alphaFunc LT128
 		depthWrite
@@ -74,7 +74,7 @@ textures/tremor/red_color
 		cull disable
 		qer_trans 0.5
 	{
-		map textures/tremor/red_color.tga
+		map textures/tremor/red_color
 		blendfunc add
 		rgbGen wave square 0 1 0 1
 }
@@ -88,7 +88,7 @@ textures/tremor/red_color
 textures/tremor/shinymetal
 {
 	{
-		map textures/tremor/shinymetal.tga
+		map textures/tremor/shinymetal
 		tcGen environment 
 	}
 }
@@ -96,7 +96,7 @@ textures/tremor/shinymetal
 // Shaders by Godmil adapted from terrain shader by Ydnar
 textures/tremor/dirt_phong
 {
-	qer_editorimage textures/tremor/dirt.tga
+	qer_editorimage textures/misc/dirt
 	q3map_forceMeta
 	q3map_nonplanar
 	q3map_shadeAngle 179
@@ -104,7 +104,7 @@ textures/tremor/dirt_phong
 //	q3map_tcGen ivector ( 512 0 0 ) ( 0 512 0 )
 	q3map_tcMod rotate 33
 	{
-		map textures/tremor/dirt.tga
+		map textures/misc/dirt
 		rgbGen identity
 	}
 	{
@@ -118,7 +118,7 @@ textures/tremor/dirt_phong
 // Shader by id 
 textures/tremor/proto_lightred_nonsolid
 {
-	q3map_lightimage textures/base_light/proto_lightred.tga
+	q3map_lightimage textures/base_light/proto_lightred
 	surfaceparm nomarks
 	surfaceparm nonsolid //edit by Godmil
 	q3map_surfacelight 300
@@ -128,12 +128,12 @@ textures/tremor/proto_lightred_nonsolid
 		rgbGen identity
 	}
 	{
-		map textures/base_light/proto_lightred.tga
+		map textures/base_light/proto_lightred
 		blendFunc filter
 		rgbGen identity
 	}
         {
-		map textures/base_light/proto_lightred.tga
+		map textures/base_light/proto_lightred
 		blendFunc add
 	}
 	
@@ -142,7 +142,7 @@ textures/tremor/proto_lightred_nonsolid
 // by Veda, adapted by Godmil using a shader by Evillair 
 textures/tremor/light_flicker
 {
-	qer_editorimage textures/tremor/light_128x512.tga
+	qer_editorimage textures/niveus/light_128x512
 	q3map_surfacelight 1500
 	q3map_lightStyle 1
 	{
@@ -151,12 +151,12 @@ textures/tremor/light_flicker
 		tcGen lightmap 
 	}
 	{
-		map textures/tremor/light_128x512.tga
+		map textures/niveus/light_128x512
 		blendfunc GL_DST_COLOR GL_ZERO 
 		rgbGen identity
 	}
 	{ 
-		map textures/tremor/tremorlightblend.tga 
+		map textures/tremor/tremorlightblend 
 		rgbGen wave sawtooth 0 1 0 0.5 
 		blendfunc GL_ONE GL_ONE 
 	} 
@@ -165,23 +165,23 @@ textures/tremor/light_flicker
 // by Evillair
 textures/tremor/e6basicstrip_blue_s_nolight
 {
-	qer_editorimage textures/tremor/e6basicstrip_blue.tga
+	qer_editorimage textures/tremor/e6basicstrip_blue
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	
 	{
-		map textures/tremor/e6basicstrip_blue.tga
+		map textures/tremor/e6basicstrip_blue
 	}
 }
 
 //by Godmil & jex
 textures/tremor/e8_base1c_nonsolid
 {
-	qer_editorimage textures/tremor/e8_base1c.jpg
+	qer_editorimage textures/karith/e8_base1c
 	surfaceparm nonsolid
 	{
-		map textures/tremor/e8_base1c.jpg
+		map textures/karith/e8_base1c
 	}
 	{
 		map $lightmap
@@ -198,7 +198,7 @@ textures/tremor/darkglass3
 	surfaceparm trans
 	cull disable
 		{
-		map textures/tremor/trem2ref.tga
+		map textures/niveus/trem2ref
 		tcgen environment
 		blendfunc gl_one gl_one
 		rgbGen identity
@@ -213,7 +213,7 @@ textures/tremor/darkglass3
 //By Evillair, edit by Jex, and godmil
 textures/tremor/e6bsegrtflr256_nonsolid
 {
-	qer_editorimage textures/tremor/e6bsegrtflr256.tga
+	qer_editorimage textures/tremor/e6bsegrtflr256
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
@@ -221,7 +221,7 @@ textures/tremor/e6bsegrtflr256_nonsolid
 	cull none
 
 	{
-		map textures/tremor/e6bsegrtflr256.tga
+		map textures/tremor/e6bsegrtflr256
 		depthwrite
 		alphafunc GE128
 	}
@@ -240,7 +240,7 @@ textures/tremor/plainglass3
 	surfaceparm nolightmap
 	cull twosided
 	{
-		map textures/tremor/plainglass.tga
+		map textures/karith/plainglass
 		tcGen environment
 		blendfunc GL_ONE GL_ONE
                 }
@@ -251,7 +251,7 @@ textures/tremor/plainglass3
 textures/tremor/tremorspark1
 {
   {
-    map textures/tremor/tremorspark1.tga
+    map textures/tremor/tremorspark1
     blendFunc blend
   }
 }
@@ -262,7 +262,7 @@ textures/tremor/proto_zzztblu3
   surfaceparm nonsolid
   cull twosided
   {
-    map textures/tremor/proto_zzztblu3.tga
+    map textures/tremor/proto_zzztblu3
     tcGen environment
     tcMod turb 0 0.25 0 0.5
     tcmod scroll 1 1
@@ -279,7 +279,7 @@ textures/tremor/beam_red
   qer_trans .5
   cull none
   {
-    map textures/tremor/beam_red.jpg
+    map textures/tremor/beam_red
     tcMod Scroll .3 0
     blendFunc add
   }

@@ -5,7 +5,7 @@ textures/inc/inc
 	surfaceparm trans
 	polygonoffset
 	{
-		map textures/inc/inc.jpg
+		map textures/inc/inc
 		blendfunc filter
 	}
 }

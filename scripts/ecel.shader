@@ -5,7 +5,7 @@
 // --------- Lights ------------ //
 textures/ecel/ecel_clight01_10k
 {
-	qer_editorimage textures/ecel/ecel_clight01.tga
+	qer_editorimage textures/ecel/ecel_clight01
 	surfaceparm nomarks
 	q3map_surfacelight 10000
 	{
@@ -14,19 +14,19 @@ textures/ecel/ecel_clight01_10k
 		tcGen lightmap 
 	}
 	{
-		map textures/ecel/ecel_clight01.tga
+		map textures/ecel/ecel_clight01
 		blendfunc filter
 		rgbGen identity
 	}
 	{
-		map textures/ecel/ecel_clight01.blend.tga
+		map textures/ecel/ecel_clight01.blend
 		blendfunc add
 	}
 }
 
 textures/ecel/ecel_mplatelight_2k
 {
-	qer_editorimage textures/ecel/ecel_mplatelight.tga
+	qer_editorimage textures/ecel/ecel_mplatelight
 	surfaceparm nomarks
 	q3map_surfacelight 2000
 	{
@@ -35,19 +35,19 @@ textures/ecel/ecel_mplatelight_2k
 		tcGen lightmap 
 	}
 	{
-		map textures/ecel/ecel_mplatelight.tga
+		map textures/ecel/ecel_mplatelight
 		blendfunc filter
 		rgbGen identity
 	}
 	{
-		map textures/ecel/ecel_mplatelight.blend.tga
+		map textures/ecel/ecel_mplatelight.blend
 		blendfunc add
 	}
 }
 
 textures/ecel/ecel_mplatelightmtl_2k
 {
-	qer_editorimage textures/ecel/ecel_mplatelightmtl.tga
+	qer_editorimage textures/ecel/ecel_mplatelightmtl
 	surfaceparm nomarks
 	q3map_surfacelight 2000
 	{
@@ -56,19 +56,19 @@ textures/ecel/ecel_mplatelightmtl_2k
 		tcGen lightmap 
 	}
 	{
-		map textures/ecel/ecel_mplatelightmtl.tga
+		map textures/ecel/ecel_mplatelightmtl
 		blendfunc filter
 		rgbGen identity
 	}
 	{
-		map textures/ecel/ecel_mplatelight.blend.tga
+		map textures/ecel/ecel_mplatelight.blend
 		blendfunc add
 	}
 }
 
 textures/ecel/ecel_wlight01_2k
 {
-	qer_editorimage textures/ecel/ecel_wlight01.tga
+	qer_editorimage textures/ecel/ecel_wlight01
 	surfaceparm nomarks
 	q3map_surfacelight 2000
 	{
@@ -77,19 +77,19 @@ textures/ecel/ecel_wlight01_2k
 		tcGen lightmap 
 	}
 	{
-		map textures/ecel/ecel_wlight01.tga
+		map textures/ecel/ecel_wlight01
 		blendfunc filter
 		rgbGen identity
 	}
 	{
-		map textures/ecel/ecel_wlight01.blend.tga
+		map textures/ecel/ecel_wlight01.blend
 		blendfunc add
 	}
 }
 
 textures/ecel/ecel_wlight01mtl_2k
 {
-	qer_editorimage textures/ecel/ecel_wlight01mtl.tga
+	qer_editorimage textures/ecel/ecel_wlight01mtl
 	surfaceparm nomarks
 	q3map_surfacelight 2000
 	{
@@ -98,12 +98,12 @@ textures/ecel/ecel_wlight01mtl_2k
 		tcGen lightmap 
 	}
 	{
-		map textures/ecel/ecel_wlight01mtl.tga
+		map textures/ecel/ecel_wlight01mtl
 		blendfunc filter
 		rgbGen identity
 	}
 	{
-		map textures/ecel/ecel_wlight01.blend.tga
+		map textures/ecel/ecel_wlight01.blend
 		blendfunc add
 	}
 }
@@ -120,7 +120,7 @@ textures/ecel/ecel_girder01
 	cull disable
 	nopicmip
 	{
-		map textures/ecel/ecel_girder01.tga
+		map textures/ecel/ecel_girder01
 		rgbGen identity
 		depthWrite
 		alphaFunc GE128
@@ -145,7 +145,7 @@ textures/ecel/ecel_girder01mtl
 	cull disable
 	nopicmip
 	{
-		map textures/ecel/ecel_girder01mtl.tga
+		map textures/ecel/ecel_girder01mtl
 		rgbGen identity
 		depthWrite
 		alphaFunc GE128
@@ -159,7 +159,7 @@ textures/ecel/ecel_girder01mtl
 	}
 }
 
-textures/ecel/ecel_metgrate.tga
+textures/ecel/ecel_metgrate
 {
 	surfaceparm alphashadow
 	surfaceparm metalsteps
@@ -170,7 +170,7 @@ textures/ecel/ecel_metgrate.tga
 	cull disable
 	nopicmip
 	{
-		map textures/ecel/ecel_metgrate.tga
+		map textures/ecel/ecel_metgrate
 		rgbGen identity
 		depthWrite
 		alphaFunc GE128
@@ -188,7 +188,7 @@ textures/ecel/ecel_metgrate.tga
 
 //textures/ecel/ecel_des02b_alpha
 //{
-//	qer_editorimage textures/ecel/ecel_des02b.tga
+//	qer_editorimage textures/ecel/ecel_des02b
 //	surfaceparm alphashadow
 //	surfaceparm metalsteps
 //	surfaceparm nomarks
@@ -198,7 +198,7 @@ textures/ecel/ecel_metgrate.tga
 //	cull disable
 //	nopicmip
 //	{
-//		map textures/ecel/ecel_des02b.tga
+//		map textures/ecel/ecel_des02b
 //		rgbGen identity
 //		depthWrite
 //		alphaFunc GE128
@@ -216,7 +216,7 @@ textures/ecel/ecel_metgrate.tga
 
 //textures/ecel/ecel_des02bmtl_alpha
 //{
-//	qer_editorimage textures/ecel/ecel_des02bmtl.tga
+//	qer_editorimage textures/ecel/ecel_des02bmtl
 //	surfaceparm alphashadow
 //	surfaceparm metalsteps
 //	surfaceparm nomarks
@@ -226,7 +226,7 @@ textures/ecel/ecel_metgrate.tga
 //	cull disable
 //	nopicmip
 //	{
-//		map textures/ecel/ecel_des02bmtl.tga
+//		map textures/ecel/ecel_des02bmtl
 //		rgbGen identity
 //		depthWrite
 //		alphaFunc GE128
@@ -244,7 +244,7 @@ textures/ecel/ecel_metgrate.tga
 
 //textures/ecel/ecel_gratefiller_alpha
 //{
-//	qer_editorimage textures/ecel/ecel_gratefiller.tga
+//	qer_editorimage textures/ecel/ecel_gratefiller
 //	surfaceparm alphashadow
 //	surfaceparm metalsteps
 //	surfaceparm nomarks
@@ -254,7 +254,7 @@ textures/ecel/ecel_metgrate.tga
 //	cull disable
 //	nopicmip
 //	{
-//		map textures/ecel/ecel_gratefiller.tga
+//		map textures/ecel/ecel_gratefiller
 //		rgbGen identity
 //		depthWrite
 //		alphaFunc GE128
@@ -272,7 +272,7 @@ textures/ecel/ecel_metgrate.tga
 
 //textures/ecel/ecel_des02_alpha
 //{
-//	qer_editorimage textures/ecel/ecel_des02.tga
+//	qer_editorimage textures/ecel/ecel_des02
 //	surfaceparm alphashadow
 //	surfaceparm metalsteps
 //	surfaceparm nomarks
@@ -282,7 +282,7 @@ textures/ecel/ecel_metgrate.tga
 //	cull disable
 //	nopicmip
 //	{
-//		map textures/ecel/ecel_des02.tga
+//		map textures/ecel/ecel_des02
 //		rgbGen identity
 //		depthWrite
 //		alphaFunc GE128
@@ -300,7 +300,7 @@ textures/ecel/ecel_metgrate.tga
 
 //textures/ecel/ecel_des02mtl_alpha
 //{
-//	qer_editorimage textures/ecel/ecel_des02mtl.tga
+//	qer_editorimage textures/ecel/ecel_des02mtl
 //	surfaceparm alphashadow
 //	surfaceparm metalsteps
 //	surfaceparm nomarks
@@ -310,7 +310,7 @@ textures/ecel/ecel_metgrate.tga
 //	cull disable
 //	nopicmip
 //	{
-//		map textures/ecel/ecel_des02mtl.tga
+//		map textures/ecel/ecel_des02mtl
 //		rgbGen identity
 //		depthWrite
 //		alphaFunc GE128
@@ -328,7 +328,7 @@ textures/ecel/ecel_metgrate.tga
 
 //textures/ecel/ecel_fgrate01_alpha
 //{
-//	qer_editorimage textures/ecel/ecel_fgrate01.tga
+//	qer_editorimage textures/ecel/ecel_fgrate01
 //	surfaceparm alphashadow
 //	surfaceparm metalsteps
 //	surfaceparm nomarks
@@ -338,7 +338,7 @@ textures/ecel/ecel_metgrate.tga
 //	cull disable
 //	nopicmip
 //	{
-//		map textures/ecel/ecel_fgrate01.tga
+//		map textures/ecel/ecel_fgrate01
 //		rgbGen identity
 //		depthWrite
 //		alphaFunc GE128
@@ -356,7 +356,7 @@ textures/ecel/ecel_metgrate.tga
 
 //textures/ecel/ecel_fgrate01mtl_alpha
 //{
-//	qer_editorimage textures/ecel/ecel_fgrate01MTL.tga
+//	qer_editorimage textures/ecel/ecel_fgrate01mtl
 //	surfaceparm alphashadow
 //	surfaceparm metalsteps
 //	surfaceparm nomarks
@@ -366,7 +366,7 @@ textures/ecel/ecel_metgrate.tga
 //	cull disable
 //	nopicmip
 //	{
-//		map textures/ecel/ecel_fgrate01mtl.tga
+//		map textures/ecel/ecel_fgrate01mtl
 //		rgbGen identity
 //		depthWrite
 //		alphaFunc GE128
@@ -387,7 +387,7 @@ textures/ecel/ecel_spwn_decal
 	surfaceparm trans
 	surfaceparm pointlight
 	{
-		clampmap textures/ecel/ecel_spwn_decal.tga
+		clampmap textures/ecel/ecel_spwn_decal
 		blendfunc add
 		rgbGen Vertex
 	}
@@ -396,11 +396,11 @@ textures/ecel/ecel_spwn_decal
 // -------- bouncepads ----------- //
 textures/ecel/ecel_bounce_01
 {
-	q3map_lightimage textures/ecel/ecel_bounce.blend.tga
+	q3map_lightimage textures/ecel/ecel_bounce.blend
 	surfaceparm nodamage
 	q3map_surfacelight 400
 	{
-		map textures/ecel/ecel_bounce_01.tga
+		map textures/ecel/ecel_bounce_01
 		rgbGen identity
 	}
 	{
@@ -410,12 +410,12 @@ textures/ecel/ecel_bounce_01
 		tcGen lightmap 
 	}
 	{
-		map textures/ecel/ecel_bounce.blend.tga
+		map textures/ecel/ecel_bounce.blend
 		blendfunc add
 		rgbGen wave sin 0.5 0.5 0 1.5 
 	}
 	{
-		clampmap textures/ecel/ecel_bouncesmall.tga
+		clampmap textures/ecel/ecel_bouncesmall
 		blendfunc add
 		rgbGen wave square 0.5 0.5 0.25 1.5 
 		tcMod stretch sin 1.2 0.8 0 1.5 
@@ -424,11 +424,11 @@ textures/ecel/ecel_bounce_01
 
 textures/ecel/ecel_bounce_c01
 {
-	q3map_lightimage textures/ecel/ecel_bounce.blend.tga
+	q3map_lightimage textures/ecel/ecel_bounce.blend
 	surfaceparm nodamage
 	q3map_surfacelight 400
 	{
-		map textures/ecel/ecel_bounce_c01.tga
+		map textures/ecel/ecel_bounce_c01
 		rgbGen identity
 	}
 	{
@@ -438,12 +438,12 @@ textures/ecel/ecel_bounce_c01
 		tcGen lightmap 
 	}
 	{
-		map textures/ecel/ecel_bounce.blend.tga
+		map textures/ecel/ecel_bounce.blend
 		blendfunc add
 		rgbGen wave sin 0.5 0.5 0 1.5 
 	}
 	{
-		clampmap textures/ecel/ecel_bouncesmall.tga
+		clampmap textures/ecel/ecel_bouncesmall
 		blendfunc add
 		rgbGen wave square 0.5 0.5 0.25 1.5 
 		tcMod stretch sin 1.2 0.8 0 1.5 
@@ -452,11 +452,11 @@ textures/ecel/ecel_bounce_c01
 
 textures/ecel/ecel_bounce_c02
 {
-	q3map_lightimage textures/ecel/ecel_bounce.blend.tga
+	q3map_lightimage textures/ecel/ecel_bounce.blend
 	surfaceparm nodamage
 	q3map_surfacelight 400
 	{
-		map textures/ecel/ecel_bounce_c02.tga
+		map textures/ecel/ecel_bounce_c02
 		rgbGen identity
 	}
 	{
@@ -466,12 +466,12 @@ textures/ecel/ecel_bounce_c02
 		tcGen lightmap 
 	}
 	{
-		map textures/ecel/ecel_bounce.blend.tga
+		map textures/ecel/ecel_bounce.blend
 		blendfunc add
 		rgbGen wave sin 0.5 0.5 0 1.5 
 	}
 	{
-		clampmap textures/ecel/ecel_bouncesmall.tga
+		clampmap textures/ecel/ecel_bouncesmall
 		blendfunc add
 		rgbGen wave square 0.5 0.5 0.25 1.5 
 		tcMod stretch sin 1.2 0.8 0 1.5 
@@ -480,11 +480,11 @@ textures/ecel/ecel_bounce_c02
 
 textures/ecel/ecel_bounce_c03
 {
-	q3map_lightimage textures/ecel/ecel_bounce.blend.tga
+	q3map_lightimage textures/ecel/ecel_bounce.blend
 	surfaceparm nodamage
 	q3map_surfacelight 400
 	{
-		map textures/ecel/ecel_bounce_c03.tga
+		map textures/ecel/ecel_bounce_c03
 		rgbGen identity
 	}
 	{
@@ -494,12 +494,12 @@ textures/ecel/ecel_bounce_c03
 		tcGen lightmap 
 	}
 	{
-		map textures/ecel/ecel_bounce.blend.tga
+		map textures/ecel/ecel_bounce.blend
 		blendfunc add
 		rgbGen wave sin 0.5 0.5 0 1.5 
 	}
 	{
-		clampmap textures/ecel/ecel_bouncesmall.tga
+		clampmap textures/ecel/ecel_bouncesmall
 		blendfunc add
 		rgbGen wave square 0.5 0.5 0.25 1.5 
 		tcMod stretch sin 1.2 0.8 0 1.5 
@@ -508,11 +508,11 @@ textures/ecel/ecel_bounce_c03
 
 textures/ecel/ecel_bounce_c02mtl
 {
-	q3map_lightimage textures/ecel/ecel_bounce.blend.tga
+	q3map_lightimage textures/ecel/ecel_bounce.blend
 	surfaceparm nodamage
 	q3map_surfacelight 400
 	{
-		map textures/ecel/ecel_bounce_c02mtl.tga
+		map textures/ecel/ecel_bounce_c02mtl
 		rgbGen identity
 	}
 	{
@@ -522,12 +522,12 @@ textures/ecel/ecel_bounce_c02mtl
 		tcGen lightmap 
 	}
 	{
-		map textures/ecel/ecel_bounce.blend.tga
+		map textures/ecel/ecel_bounce.blend
 		blendfunc add
 		rgbGen wave sin 0.5 0.5 0 1.5 
 	}
 	{
-		clampmap textures/ecel/ecel_bouncesmall.tga
+		clampmap textures/ecel/ecel_bouncesmall
 		blendfunc add
 		rgbGen wave square 0.5 0.5 0.25 1.5 
 		tcMod stretch sin 1.2 0.8 0 1.5 
@@ -536,11 +536,11 @@ textures/ecel/ecel_bounce_c02mtl
 
 textures/ecel/ecel_bounce_c03b
 {
-	q3map_lightimage textures/ecel/ecel_bounce.blend.tga
+	q3map_lightimage textures/ecel/ecel_bounce.blend
 	surfaceparm nodamage
 	q3map_surfacelight 400
 	{
-		map textures/ecel/ecel_bounce_c03b.tga
+		map textures/ecel/ecel_bounce_c03b
 		rgbGen identity
 	}
 	{
@@ -550,12 +550,12 @@ textures/ecel/ecel_bounce_c03b
 		tcGen lightmap 
 	}
 	{
-		map textures/ecel/ecel_bounce.blend.tga
+		map textures/ecel/ecel_bounce.blend
 		blendfunc add
 		rgbGen wave sin 0.5 0.5 0 1.5 
 	}
 	{
-		clampmap textures/ecel/ecel_bouncesmall.tga
+		clampmap textures/ecel/ecel_bouncesmall
 		blendfunc add
 		rgbGen wave square 0.5 0.5 0.25 1.5 
 		tcMod stretch sin 1.2 0.8 0 1.5 
@@ -564,11 +564,11 @@ textures/ecel/ecel_bounce_c03b
 
 textures/ecel/ecel_bounce_c03bmtl
 {
-	q3map_lightimage textures/ecel/ecel_bounce.blend.tga
+	q3map_lightimage textures/ecel/ecel_bounce.blend
 	surfaceparm nodamage
 	q3map_surfacelight 400
 	{
-		map textures/ecel/ecel_bounce_c03bmtl.tga
+		map textures/ecel/ecel_bounce_c03bmtl
 		rgbGen identity
 	}
 	{
@@ -578,12 +578,12 @@ textures/ecel/ecel_bounce_c03bmtl
 		tcGen lightmap 
 	}
 	{
-		map textures/ecel/ecel_bounce.blend.tga
+		map textures/ecel/ecel_bounce.blend
 		blendfunc add
 		rgbGen wave sin 0.5 0.5 0 1.5 
 	}
 	{
-		clampmap textures/ecel/ecel_bouncesmall.tga
+		clampmap textures/ecel/ecel_bouncesmall
 		blendfunc add
 		rgbGen wave square 0.5 0.5 0.25 1.5 
 		tcMod stretch sin 1.2 0.8 0 1.5 
@@ -592,11 +592,11 @@ textures/ecel/ecel_bounce_c03bmtl
 
 textures/ecel/ecel_bounce_met01
 {
-	q3map_lightimage textures/ecel/ecel_bounce.blend.tga
+	q3map_lightimage textures/ecel/ecel_bounce.blend
 	surfaceparm nodamage
 	q3map_surfacelight 400
 	{
-		map textures/ecel/ecel_bounce_met01.tga
+		map textures/ecel/ecel_bounce_met01
 		rgbGen identity
 	}
 	{
@@ -606,12 +606,12 @@ textures/ecel/ecel_bounce_met01
 		tcGen lightmap 
 	}
 	{
-		map textures/ecel/ecel_bounce.blend.tga
+		map textures/ecel/ecel_bounce.blend
 		blendfunc add
 		rgbGen wave sin 0.5 0.5 0 1.5 
 	}
 	{
-		clampmap textures/ecel/ecel_bouncesmall.tga
+		clampmap textures/ecel/ecel_bouncesmall
 		blendfunc add
 		rgbGen wave square 0.5 0.5 0.25 1.5 
 		tcMod stretch sin 1.2 0.8 0 1.5 
@@ -620,11 +620,11 @@ textures/ecel/ecel_bounce_met01
 
 textures/ecel/ecel_bounce_mfloor
 {
-	q3map_lightimage textures/ecel/ecel_bounce.blend.tga
+	q3map_lightimage textures/ecel/ecel_bounce.blend
 	surfaceparm nodamage
 	q3map_surfacelight 400
 	{
-		map textures/ecel/ecel_bounce_mfloor.tga
+		map textures/ecel/ecel_bounce_mfloor
 		rgbGen identity
 	}
 	{
@@ -634,12 +634,12 @@ textures/ecel/ecel_bounce_mfloor
 		tcGen lightmap 
 	}
 	{
-		map textures/ecel/ecel_bounce.blend.tga
+		map textures/ecel/ecel_bounce.blend
 		blendfunc add
 		rgbGen wave sin 0.5 0.5 0 1.5 
 	}
 	{
-		clampmap textures/ecel/ecel_bouncesmall.tga
+		clampmap textures/ecel/ecel_bouncesmall
 		blendfunc add
 		rgbGen wave square 0.5 0.5 0.25 1.5 
 		tcMod stretch sin 1.2 0.8 0 1.5 
@@ -648,11 +648,11 @@ textures/ecel/ecel_bounce_mfloor
 
 textures/ecel/ecel_bounce_mfloormtl
 {
-	q3map_lightimage textures/ecel/ecel_bounce.blend.tga
+	q3map_lightimage textures/ecel/ecel_bounce.blend
 	surfaceparm nodamage
 	q3map_surfacelight 400
 	{
-		map textures/ecel/ecel_bounce_mfloormtl.tga
+		map textures/ecel/ecel_bounce_mfloormtl
 		rgbGen identity
 	}
 	{
@@ -662,12 +662,12 @@ textures/ecel/ecel_bounce_mfloormtl
 		tcGen lightmap 
 	}
 	{
-		map textures/ecel/ecel_bounce.blend.tga
+		map textures/ecel/ecel_bounce.blend
 		blendfunc add
 		rgbGen wave sin 0.5 0.5 0 1.5 
 	}
 	{
-		clampmap textures/ecel/ecel_bouncesmall.tga
+		clampmap textures/ecel/ecel_bouncesmall
 		blendfunc add
 		rgbGen wave square 0.5 0.5 0.25 1.5 
 		tcMod stretch sin 1.2 0.8 0 1.5 

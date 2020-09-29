@@ -6,7 +6,7 @@
 
 textures/jajlake2/jajlake2_skybox
 {
-	qer_editorimage textures/jajlake2/jajlake2_rt_view.tga
+	qer_editorimage textures/jajlake2/jajlake2_rt_view
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	q3map_globaltexture

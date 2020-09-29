@@ -1,13 +1,13 @@
 textures/evil6_support/e6h_support_s
 {
-	qer_editorimage textures/evil6_support/e6h_support.tga
+	qer_editorimage textures/evil6_support/e6h_support
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/evil6_support/e6h_support.tga
+		map textures/evil6_support/e6h_support
 		alphafunc GE128
 		depthwrite
 	}
@@ -20,14 +20,14 @@ textures/evil6_support/e6h_support_s
 
 textures/evil6_support/e6holestrip_s
 {
-	qer_editorimage textures/evil6_support/e6holestrip.tga
+	qer_editorimage textures/evil6_support/e6holestrip
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/evil6_support/e6holestrip.tga
+		map textures/evil6_support/e6holestrip
 		alphafunc GE128
 		depthwrite
 	}
@@ -40,20 +40,20 @@ textures/evil6_support/e6holestrip_s
 
 textures/evil6_support/e6vertgrt_supp_s_nolight
 {
-	qer_editorimage textures/evil6_support/e6vertgrt_supp.tga
-	q3map_lightimage textures/evil6_support/e6vertgrt_supp_fx.tga
+	qer_editorimage textures/evil6_support/e6vertgrt_supp
+	q3map_lightimage textures/evil6_support/e6vertgrt_supp_fx
 	surfaceparm nomarks
 
 	{
-		map textures/evil6_support/e6vertgrt_supp.tga
+		map textures/evil6_support/e6vertgrt_supp
 	}
 	{
-		map textures/evil6_support/e6vertgrt_supp_fx.tga
+		map textures/evil6_support/e6vertgrt_supp_fx
 		tcmod scroll 0 2
 		blendfunc add
 	}
 	{
-		map textures/evil6_support/e6vertgrt_supp.tga
+		map textures/evil6_support/e6vertgrt_supp
 		blendfunc blend
 	}
 	{
@@ -64,32 +64,32 @@ textures/evil6_support/e6vertgrt_supp_s_nolight
 
 textures/evil6_support/e6vlight_supp_s_nolight
 {
-	qer_editorimage textures/evil6_support/e6vlight_supp.tga
+	qer_editorimage textures/evil6_support/e6vlight_supp
 	surfaceparm nomarks
 
 	{
-		map textures/evil6_support/e6vlight_supp.tga
+		map textures/evil6_support/e6vlight_supp
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/evil6_support/e6vlight_supp_blend.tga
+		map textures/evil6_support/e6vlight_supp_blend
 		blendfunc add
 	}
 }
 
 textures/evil6_support/e6x_supprt_s
 {
-	qer_editorimage textures/evil6_support/e6x_supprt.tga
+	qer_editorimage textures/evil6_support/e6x_supprt
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/evil6_support/e6x_supprt.tga
+		map textures/evil6_support/e6x_supprt
 		alphafunc GE128
 		depthwrite
 	}
@@ -102,14 +102,14 @@ textures/evil6_support/e6x_supprt_s
 
 textures/evil6_support/e6xrst_supprt_s
 {
-	qer_editorimage textures/evil6_support/e6xrst_supprt.tga
+	qer_editorimage textures/evil6_support/e6xrst_supprt
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/evil6_support/e6xrst_supprt.tga
+		map textures/evil6_support/e6xrst_supprt
 		alphafunc GE128
 		depthwrite
 	}

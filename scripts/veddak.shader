@@ -1,9 +1,9 @@
 //Beautifully written by ydnar - edited by godmil and then brain
 textures/veddak/snow_rock
 {
-	q3map_lightImage textures/veddak/snow_1.tga
+	q3map_lightImage textures/veddak/snow_1
 
-	qer_editorimage textures/veddak/dot2.jpg	
+	qer_editorimage textures/veddak/dot2	
 
 	q3map_forceMeta
 	q3map_nonplanar
@@ -21,11 +21,11 @@ textures/veddak/snow_rock
 	q3map_globalTexture
 	
 	{
-		map textures/veddak/rock_1.tga
+		map textures/veddak/rock_1
 		rgbGen identity
 	}
 	{
-		map textures/veddak/snow_1.tga
+		map textures/veddak/snow_1
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		alphaFunc GE128
 		rgbGen identity
@@ -45,7 +45,7 @@ textures/veddak/stupid_face
 	surfaceparm trans
 	polygonoffset
 	{
-		map textures/veddak/stupid_face.jpg
+		map textures/veddak/stupid_face
 		blendfunc filter
 	}
 }
@@ -56,7 +56,7 @@ textures/veddak/trem_central
 	surfaceparm trans
 	polygonoffset
 	{
-		map textures/veddak/trem_central.tga
+		map textures/veddak/trem_central
 		blendfunc filter
 	}
 }
