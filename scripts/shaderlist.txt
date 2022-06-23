@@ -9,6 +9,5 @@ evil6_trims
 evil6_walls
 evil8_base
 inc
-jajlake2
 jajsnow1
 veddak
