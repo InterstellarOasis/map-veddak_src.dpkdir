@@ -3,23 +3,23 @@ textures/veddak/snow_rock
 {
 	q3map_lightImage textures/veddak/snow_1
 
-	qer_editorimage textures/veddak/dot2	
+	qer_editorimage textures/veddak/dot2
 
 	q3map_forceMeta
 	q3map_nonplanar
 	q3map_shadeAngle 179
-	
+
 	q3map_lightmapAxis z
-	
+
 	q3map_tcGen ivector ( 512 0 0 ) ( 0 512 0 )
 	q3map_tcMod rotate 33
-	
+
 	q3map_alphaMod dotproduct2 ( 0.1 -0.2 0.99 )
-	
+
 	q3map_lightmapSampleSize 64
-	
+
 	q3map_globalTexture
-	
+
 	{
 		map textures/veddak/rock_1
 		rgbGen identity
@@ -38,6 +38,7 @@ textures/veddak/snow_rock
 		rgbGen identity
 	}
 }
+
 textures/veddak/stupid_face
 {
 	surfaceparm noimpact
@@ -49,6 +50,7 @@ textures/veddak/stupid_face
 		blendfunc filter
 	}
 }
+
 textures/veddak/trem_central
 {
 	surfaceparm noimpact

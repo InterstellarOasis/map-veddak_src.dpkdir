@@ -1,12 +1,9 @@
 // eq2 shaders - Feal free to change what you need.
 // I recommend adding these to your own shader file and rename the paths accordingly.
-// Do  find\replace: "/eq2/" to "/yourmapname/"  (no quotes)
+// Do find\replace: "/eq2/" to "/yourmapname/" (no quotes)
 // author: evillair (evillair.net)
-//
-//
-//----------------------------------------------------------------------------------//
-// -- teleporter panel -- //
-//----------------------------------------------------------------------------------//
+
+// teleporter panel
 textures/eq2/eq2_telepanel
 {
 	qer_editorimage textures/eq2/eq2_telepanel
@@ -23,33 +20,32 @@ textures/eq2/eq2_telepanel
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
-//----------------------------------------------------------------------------------//
+
 // stroggs banners
-//----------------------------------------------------------------------------------//
 textures/eq2/eq2_banner
 {
-     cull disable
-     surfaceparm alphashadow
-     surfaceparm trans	
-     surfaceparm nomarks
-     tessSize 64
-     deformVertexes wave 30 sin 0 2 0 .2
-     deformVertexes wave 100 sin 0 2 0 .7
-     
+	cull disable
+	surfaceparm alphashadow
+	surfaceparm trans
+	surfaceparm nomarks
+	tessSize 64
+	deformVertexes wave 30 sin 0 2 0 .2
+	deformVertexes wave 100 sin 0 2 0 .7
+
 	{
-        map textures/eq2/eq2_banner
-        alphaFunc GE128
+		map textures/eq2/eq2_banner
+		alphaFunc GE128
 		depthWrite
 		rgbGen vertex
-    }
-    {
+	}
+	{
 		map $lightmap
 		rgbGen identity
 		blendFunc filter
@@ -59,57 +55,55 @@ textures/eq2/eq2_banner
 
 textures/eq2/eq2_banner_ow
 {
-     cull disable
-     surfaceparm alphashadow
-     surfaceparm trans	
-     surfaceparm nomarks
-     tessSize 64
-     deformVertexes wave 100 sin 0 1 0 .1
-     deformVertexes wave 100 sin 0 1 0 .2     
+	cull disable
+	surfaceparm alphashadow
+	surfaceparm trans
+	surfaceparm nomarks
+	tessSize 64
+	deformVertexes wave 100 sin 0 1 0 .1
+	deformVertexes wave 100 sin 0 1 0 .2
 	{
-        map textures/eq2/eq2_banner_ow
-        alphaFunc GE128
+		map textures/eq2/eq2_banner_ow
+		alphaFunc GE128
 		depthWrite
 		rgbGen vertex
-    }
-    {
+	}
+	{
 		map $lightmap
 		rgbGen identity
 		blendFunc filter
 		depthFunc equal
 	}
 }
-//----------------------------------------------------------------------------------//
+
 // banner - not moving
-//----------------------------------------------------------------------------------//
 textures/eq2/eq2_banner_still
 {
-     	qer_editorimage textures/eq2/eq2_banner
+		qer_editorimage textures/eq2/eq2_banner
 		cull disable
-     surfaceparm alphashadow
-     surfaceparm trans	
-     surfaceparm nomarks
-     tessSize 32
+	surfaceparm alphashadow
+	surfaceparm trans
+	surfaceparm nomarks
+	tessSize 32
 	{
-        map textures/eq2/eq2_banner
-        alphaFunc GE128
+		map textures/eq2/eq2_banner
+		alphaFunc GE128
 		depthWrite
 		rgbGen vertex
-    }
-    {
+	}
+	{
 		map $lightmap
 		rgbGen identity
 		blendFunc filter
 		depthFunc equal
 	}
 }
-//----------------------------------------------------------------------------------//
+
 // boucepad
-//----------------------------------------------------------------------------------//
 textures/eq2/eq2_bounce
 {
 	qer_editorimage textures/eq2/eq2_bounce
-	
+
 	{
 		map textures/eq2/eq2_bounce
 		rgbGen identity
@@ -135,11 +129,10 @@ textures/eq2/eq2_bounce
 	}
 
 }
-//----------------------------------------------------------------------------------//
-// -------- lights -------- //
-//----------------------------------------------------------------------------------//
+
+// lights
+
 // walllights combined (big walls)
-//----------------------------------------------------------------------------------//
 textures/eq2/eq2lt_walllight512_300
 {
 	surfaceparm nomarks
@@ -275,9 +268,7 @@ textures/eq2/eq2lt_wallbig_01b_3000
 	}
 }
 
-//----------------------------------------------------------------------------------//
 // spawn lites
-//----------------------------------------------------------------------------------//
 textures/eq2/eq2lt_spawnlite_1k
 {
 	surfaceparm nomarks
@@ -339,11 +330,9 @@ textures/eq2/eq2lt_spawnlite_6k
 	}
 }
 
-//----------------------------------------------------------------------------------//
-// ----- normal lights ----- //
-//----------------------------------------------------------------------------------//
+// normal lights
+
 // yellow\orange base lights
-//----------------------------------------------------------------------------------//
 textures/eq2/eq2_yell01_1k
 {
 	surfaceparm nomarks
@@ -841,23 +830,23 @@ textures/eq2/eq2lt_trimlight_3k
 		blendfunc GL_ONE GL_ONE
 	}
 }
-//----------------------------------------------------------------------------------//
-// ----- alphas ----- //
+
+// alphas
 // I have commented these out since they work well with no alpha (visualy).
 // If you need to have any of these with an alpha just uncomment\edit them as needed.
 
 //textures/eq2/eq2_fgrate_01small_alpha1
 //{
-//    cull disable
-//    surfaceparm alphashadow
-//    surfaceparm	metalsteps	
-//    surfaceparm nomarks
-//        {
-//         map textures/eq2/eq2_fgrate_01small
-//         alphaFunc GE128
+//	cull disable
+//	surfaceparm alphashadow
+//	surfaceparm	metalsteps
+//	surfaceparm nomarks
+//	{
+//		map textures/eq2/eq2_fgrate_01small
+//		alphaFunc GE128
 //		depthWrite
-//        }
-//        {
+//	}
+//	{
 //		map $lightmap
 //		rgbGen identity
 //		blendFunc filter
@@ -868,16 +857,16 @@ textures/eq2/eq2lt_trimlight_3k
 
 //textures/eq2/eq2_fgrate_alpha2
 //{
-//    cull disable
-//    surfaceparm alphashadow
-//    surfaceparm	metalsteps	
-//    surfaceparm nomarks
-//        {
-//         map textures/eq2/eq2_fgrate_01
-//         alphaFunc GE128
+//	cull disable
+//	surfaceparm alphashadow
+//	surfaceparm	metalsteps
+//	surfaceparm nomarks
+//	{
+//		map textures/eq2/eq2_fgrate_01
+//		alphaFunc GE128
 //		depthWrite
-//        }
-//        {
+//	}
+//	{
 //		map $lightmap
 //		rgbGen identity
 //		blendFunc filter
@@ -888,16 +877,16 @@ textures/eq2/eq2lt_trimlight_3k
 
 //textures/eq2/eq2_grate_alpha01
 //{
-//    cull disable
-//    surfaceparm alphashadow
-//    surfaceparm	metalsteps	
-//    surfaceparm nomarks
-//        {
-//         map textures/eq2/eq2_grate_01
-//         alphaFunc GE128
+//	cull disable
+//	surfaceparm alphashadow
+//	surfaceparm	metalsteps
+//	surfaceparm nomarks
+//	{
+//		map textures/eq2/eq2_grate_01
+//		alphaFunc GE128
 //		depthWrite
-//        }
-//        {
+//	}
+//	{
 //		map $lightmap
 //		rgbGen identity
 //		blendFunc filter
@@ -908,16 +897,16 @@ textures/eq2/eq2lt_trimlight_3k
 
 //textures/eq2/eq2_floor_alpha
 //{
-//   cull none
-//    surfaceparm alphashadow
-//    surfaceparm	metalsteps	
-//    surfaceparm nomarks
-//        {
-//         map textures/eq2/eq2_floor_03
-//         alphaFunc GE128
+//	cull none
+//	surfaceparm alphashadow
+//	surfaceparm	metalsteps
+//	surfaceparm nomarks
+//	{
+//		map textures/eq2/eq2_floor_03
+//		alphaFunc GE128
 //		depthWrite
-//        }
-//        {
+//	}
+//	{
 //		map $lightmap
 //		rgbGen identity
 //		blendFunc filter
@@ -925,30 +914,25 @@ textures/eq2/eq2lt_trimlight_3k
 //	}
 //
 //}
-//
-//----------------------------------------------------------------------------------//
-// ----- hanging wires ----- //
-//----------------------------------------------------------------------------------//
+
+// hanging wires
 textures/eq2/eq2_alphawires
 {
 	qer_editorimage textures/eq2/eq2_wires_01
-     cull disable
-     surfaceparm alphashadow
-     surfaceparm trans	
-     surfaceparm nomarks
+	cull disable
+	surfaceparm alphashadow
+	surfaceparm trans
+	surfaceparm nomarks
 	{
-        map textures/eq2/eq2_wires_01
-        alphaFunc GE128
+		map textures/eq2/eq2_wires_01
+		alphaFunc GE128
 		depthWrite
 		rgbGen vertex
-    }
-    {
+	}
+	{
 		map $lightmap
 		rgbGen identity
 		blendFunc filter
 		depthFunc equal
 	}
 }
-//----------------------------------------------------------------------------------//
-// end //
-//----------------------------------------------------------------------------------//

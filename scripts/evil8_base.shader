@@ -8,9 +8,9 @@ textures/evil8_lights/e8btrimlight
 		map textures/evil8_lights/e8btrimlight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_lights/e8btrimlight.blend
@@ -28,9 +28,9 @@ textures/evil8_lights/e8trimlight
 		map textures/evil8_lights/e8trimlight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_lights/e8trimlight.blend
@@ -48,9 +48,9 @@ textures/evil8_floor/e8warn2steplight
 		map textures/evil8_floor/e8warn2steplight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_floor/e8warn2steplight.blend
@@ -68,9 +68,9 @@ textures/evil8_floor/e8minitrimlight
 		map textures/evil8_lights/e8minitrimlight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_lights/e8minitrimlight.blend
@@ -86,7 +86,7 @@ textures/evil8_fx/e8_jumppad02
 		map textures/evil8_fx/e8_jumppad02_fx
 		blendfunc add
 		tcMod rotate 360
-		tcMod stretch sin 1 0.8 1 0.4 
+		tcMod stretch sin 1 0.8 1 0.4
 	}
 	{
 		map textures/evil8_fx/e8_jumppad02
@@ -99,10 +99,10 @@ textures/evil8_fx/e8_jumppad02
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_one_minus_dst_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 textures/evil8_lights/e8_rlightb2
@@ -115,15 +115,16 @@ textures/evil8_lights/e8_rlightb2
 		map textures/evil8_lights/e8_rlightb2
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_lights/e8_rlightb2.blend
 		blendfunc add
 	}
 }
+
 textures/evil8_lights/e8_rlightb
 {
 	qer_editorimage textures/evil8_lights/e8_rlightb
@@ -134,9 +135,9 @@ textures/evil8_lights/e8_rlightb
 		map textures/evil8_lights/e8_rlightb
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_lights/e8_rlightb.blend
@@ -154,9 +155,9 @@ textures/evil8_lights/evil8_rlight
 		map textures/evil8_lights/e8_rlight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_lights/e8_rlight.blend
@@ -174,9 +175,9 @@ textures/evil8_lights/e8tmtllight
 		map textures/evil8_lights/e8tmtllight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_lights/e8tmtllight.blend
@@ -194,9 +195,9 @@ textures/evil8_lights/e8tmtllight2
 		map textures/evil8_lights/e8tmtllight2
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_lights/e8tmtllight2.blend
@@ -214,9 +215,9 @@ textures/evil8_lights/e8tmtllight2b
 		map textures/evil8_lights/e8tmtllight2b
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_lights/e8tmtllight2b.blend
@@ -234,10 +235,10 @@ textures/evil8_grate/e8xgirder_small2
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -275,9 +276,9 @@ textures/evil8_trim/e8lighttrim_static
 		map textures/evil8_trim/e8lighttrim
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_trim/e8lighttrim.blend
@@ -294,14 +295,14 @@ textures/evil8_trim/e8lighttrim_glow
 		map textures/evil8_trim/e8lighttrim
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_trim/e8lighttrim.blend
 		blendfunc add
-		rgbGen wave sawtooth 0.2 1 1 0.2 
+		rgbGen wave sawtooth 0.2 1 1 0.2
 	}
 }
 
@@ -314,9 +315,9 @@ textures/evil8_trim/e8lighttrim_b_static
 		map textures/evil8_trim/e8lighttrim_b
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_trim/e8lighttrim_b.blend
@@ -333,14 +334,14 @@ textures/evil8_trim/e8lighttrim_b_glow
 		map textures/evil8_trim/e8lighttrim_b
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_trim/e8lighttrim_b.blend
 		blendfunc add
-		rgbGen wave sawtooth 0.2 1 1 0.2 
+		rgbGen wave sawtooth 0.2 1 1 0.2
 	}
 }
 
@@ -360,10 +361,10 @@ textures/evil8_fx/e8jumpspawn02
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_one_minus_dst_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -383,10 +384,10 @@ textures/evil8_fx/e8jumpspawn02b
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_one_minus_dst_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -406,10 +407,10 @@ textures/evil8_fx/e8jumpspawn02c
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_one_minus_dst_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -431,13 +432,13 @@ textures/evil8_fx/e8_launchpad1
 	{
 		map textures/evil8_fx/e8_launchpad1.blend
 		blendfunc add
-		rgbGen wave triangle 0.2 2 1 2 
+		rgbGen wave triangle 0.2 2 1 2
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_one_minus_dst_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -480,10 +481,10 @@ textures/evil8_grate/e8xgirder
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -498,10 +499,10 @@ textures/evil8_grate/e8xgirder_small
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -519,10 +520,10 @@ textures/evil8_trim/e8mtltrim2
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -540,10 +541,10 @@ textures/evil8_trim/e8wrntrim2
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -561,10 +562,10 @@ textures/evil8_trim/e8mtltrim2
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -581,10 +582,10 @@ textures/evil8_grate/e8bgrate01
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -601,10 +602,10 @@ textures/evil8_fx/e8rail
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -618,7 +619,7 @@ textures/evil8_fx/e8icon_red
 	{
 		map textures/evil8_fx/e8icon_red
 		blendfunc add
-		rgbGen wave triangle 0.2 0.5 0 0.2 
+		rgbGen wave triangle 0.2 0.5 0 0.2
 	}
 }
 
@@ -631,7 +632,7 @@ textures/evil8_fx/e8icon_blue
 	{
 		map textures/evil8_fx/e8icon_blue
 		blendfunc add
-		rgbGen wave triangle 0.2 0.5 0 0.2 
+		rgbGen wave triangle 0.2 0.5 0 0.2
 	}
 }
 
@@ -685,7 +686,7 @@ textures/evil8_fx/e8circle_red_fade
 	{
 		map textures/evil8_fx/e8circle_red
 		blendfunc add
-		rgbGen wave triangle 0.2 0.5 0 0.5 
+		rgbGen wave triangle 0.2 0.5 0 0.5
 	}
 }
 
@@ -699,7 +700,7 @@ textures/evil8_fx/e8circle_blue_fade
 	{
 		map textures/evil8_fx/e8circle_blue
 		blendfunc add
-		rgbGen wave triangle 0.2 0.5 0 0.5 
+		rgbGen wave triangle 0.2 0.5 0 0.5
 	}
 }
 
@@ -718,10 +719,10 @@ textures/evil8_fx/e8spawn01b
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_one_minus_dst_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -730,9 +731,9 @@ textures/evil8_trim/e8trim_bluefx
 	q3map_lightimage textures/e8trim/evil8_trimfx_b
 	q3map_surfacelight 100
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_trim/e8trim_bluefx
@@ -751,9 +752,9 @@ textures/evil8_trim/e8trim_redfx
 	q3map_lightimage textures/evil8_trim/e8trimfx_r
 	q3map_surfacelight 100
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_trim/e8trim_redfx
@@ -790,9 +791,9 @@ textures/evil8_lights/e8tinylight
 		map textures/evil8_lights/e8tinylight
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_lights/e8tinylight.blend
@@ -809,9 +810,9 @@ textures/evil8_lights/e8tinylightblue
 		map textures/evil8_lights/e8tinylightblue
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_lights/e8tinylightblue.blend
@@ -857,7 +858,7 @@ textures/evil8_base/e8metal03c_shiney
 	{
 		map textures/effects/tinfx
 		rgbGen identity
-		tcGen environment 
+		tcGen environment
 	}
 	{
 		map textures/evil8_base/e8metal03c
@@ -865,10 +866,10 @@ textures/evil8_base/e8metal03c_shiney
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_one_minus_dst_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -878,7 +879,7 @@ textures/evil8_base/e8metal_blue_shiney
 	{
 		map textures/effects/tinfx
 		rgbGen identity
-		tcGen environment 
+		tcGen environment
 	}
 	{
 		map textures/evil8_base/e8metal_blue
@@ -886,10 +887,10 @@ textures/evil8_base/e8metal_blue_shiney
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_one_minus_dst_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -899,7 +900,7 @@ textures/evil8_base/e8metal_red_shiney
 	{
 		map textures/effects/tinfx
 		rgbGen identity
-		tcGen environment 
+		tcGen environment
 	}
 	{
 		map textures/evil8_base/e8metal_red
@@ -907,10 +908,10 @@ textures/evil8_base/e8metal_red_shiney
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc gl_dst_color gl_one_minus_dst_alpha
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -920,9 +921,9 @@ textures/evil8_trim/e8trimlight
 	q3map_lightimage textures/evil8_trim/e8trimlight_fx
 	q3map_surfacelight 100
 	{
-		map $lightmap 
+		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_trim/e8trimlight
@@ -945,9 +946,9 @@ textures/evil8_trim/e8trimlight2_blue
 		map textures/evil8_trim/e8trimlight2_blue
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_trim/e8trimlight2_blue.blend
@@ -965,9 +966,9 @@ textures/evil8_trim/e8trimlight2_red
 		map textures/evil8_trim/e8trimlight2_red
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/evil8_trim/e8trimlight2_red.blend
@@ -976,10 +977,7 @@ textures/evil8_trim/e8trimlight2_red
 	}
 }
 
-
-//===========================//
-//=======floor sounds========//
-//===========================//
+// floor sounds
 textures/evil8_floor/e8clangfloor
 {
 	//qer_editorimage textures/evil8_floor/e8clangfloor
@@ -995,6 +993,7 @@ textures/evil8_floor/e8clangfloor
 		rgbGen identity
 	}
 }
+
 textures/evil8_floor/e8clangfloor01
 {
 	surfaceparm metalsteps
@@ -1067,6 +1066,7 @@ textures/evil8_floor/e8clangfloor04_red
 		rgbGen identity
 	}
 }
+
 textures/evil8_floor/e8clangfloor04b
 {
 	surfaceparm metalsteps
@@ -1081,6 +1081,7 @@ textures/evil8_floor/e8clangfloor04b
 		rgbGen identity
 	}
 }
+
 textures/evil8_floor/e8clangfloor04warn
 {
 	surfaceparm metalsteps
@@ -1095,6 +1096,7 @@ textures/evil8_floor/e8clangfloor04warn
 		rgbGen identity
 	}
 }
+
 textures/evil8_floor/e8clangfloor04warn2
 {
 	surfaceparm metalsteps
@@ -1109,6 +1111,7 @@ textures/evil8_floor/e8clangfloor04warn2
 		rgbGen identity
 	}
 }
+
 textures/evil8_floor/e8clangfloor05
 {
 	surfaceparm metalsteps
@@ -1123,6 +1126,7 @@ textures/evil8_floor/e8clangfloor05
 		rgbGen identity
 	}
 }
+
 textures/evil8_floor/e8clangfloor05b
 {
 	surfaceparm metalsteps
@@ -1137,6 +1141,7 @@ textures/evil8_floor/e8clangfloor05b
 		rgbGen identity
 	}
 }
+
 textures/evil8_floor/e8clangfloor05c
 {
 	surfaceparm metalsteps
@@ -1151,7 +1156,3 @@ textures/evil8_floor/e8clangfloor05c
 		rgbGen identity
 	}
 }
-
-//===========================//
-//===========================//
-//===========================//

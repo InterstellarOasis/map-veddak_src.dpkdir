@@ -27,13 +27,13 @@ textures/dsi_textures/dsiglass
 		map textures/dsi_textures/dsitinfx
 		blendfunc add
 		rgbGen identity
-		tcGen environment 
+		tcGen environment
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -47,15 +47,15 @@ textures/dsi_textures/tmpjp
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/dsi_textures/tmpjp.blend
 		blendfunc add
-		rgbGen wave sin 0 1 0 1 
+		rgbGen wave sin 0 1 0 1
 	}
 }
 
@@ -69,18 +69,18 @@ textures/dsi_textures/tmpjp2
 		map textures/dsi_textures/dsitinfx
 		blendfunc add
 		rgbGen identity
-		tcGen environment 
+		tcGen environment
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/dsi_textures/tmpjp.blend
 		blendfunc add
-		rgbGen wave sin 0 1 0 1 
+		rgbGen wave sin 0 1 0 1
 	}
 	{
 		map textures/dsi_textures/tmpjp2
@@ -100,9 +100,9 @@ textures/dsi_textures/steplight1b
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/dsi_textures/steplight1.blend
@@ -122,9 +122,9 @@ textures/dsi_textures/steplight1
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/dsi_textures/steplight1.blend
@@ -144,9 +144,9 @@ textures/dsi_textures/tlight
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/dsi_textures/tlight.blend
@@ -166,9 +166,9 @@ textures/dsi_textures/cretelighttrim01
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/dsi_textures/cretelighttrim01.blend
@@ -188,9 +188,9 @@ textures/dsi_textures/cretetrimlight2
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/dsi_textures/cretelighttrim01.blend
@@ -210,9 +210,9 @@ textures/dsi_textures/cretetrimlight3
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/dsi_textures/cretelighttrim01.blend
@@ -232,9 +232,9 @@ textures/dsi_textures/cretetrimlight4
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/dsi_textures/cretelighttrim01.blend
@@ -254,9 +254,9 @@ textures/dsi_textures/cretetrimlight3b
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/dsi_textures/cretelighttrim3.blend
@@ -275,9 +275,9 @@ textures/dsi_textures/dablue
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/dsi_textures/dablue.blend
@@ -297,13 +297,12 @@ textures/dsi_textures/cretewalllight01
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/dsi_textures/cretewalllight01.blend
 		blendfunc add
 	}
 }
-
